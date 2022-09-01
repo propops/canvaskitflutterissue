@@ -7,11 +7,6 @@ void main() {
   );
 }
 
-late Pass3 pass3;
-late Pass4 pass4;
-
-class AppState {}
-
 class TestApp extends StatelessWidget {
   const TestApp({Key? key}) : super(key: key);
 
@@ -21,9 +16,7 @@ class TestApp extends StatelessWidget {
       title: 'Test',
       debugShowCheckedModeBanner: false,
       theme: Theme.of(context).copyWith(),
-      home: Container(
-        color: Colors.yellow,
-      ),
+      home: Container(color: Colors.yellow),
     );
   }
 }
