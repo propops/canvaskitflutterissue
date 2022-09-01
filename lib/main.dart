@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:login_package/login_package.dart';
+import 'package:keycloak_flutter/keycloak_flutter.dart';
 
 void main() {
   runApp(
